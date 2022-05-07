@@ -36,7 +36,7 @@ document.getElementById('submit').addEventListener('click', ()=>{
     const _result = [];
     _array.forEach((num,idx)=>{
         result = num.forEach((num1,idx1)=>{
-            if(num1 === __num && idx1!==0 && idx !== 0)
+            if(num1 === __num)
             _result.push(`${idx1+1}x${idx+1}`)
         })
     })
